@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>See 'N' Say Storymaker Emulation</title> 
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+<body>
+
+    <h1>See 'N' Say Storymaker Emulation</h1> 
+
+    <div id="choices">
+        <button id="word1" class="button" onclick="selectWord('word1')">Word 1</button> 
+        <button id="word2" class="button" onclick="selectWord('word2')">Word 2</button> 
+        <button id="word3" class="button" onclick="selectWord('word3')">Word 3</button> 
+        <button id="word4" class="button" onclick="selectWord('word4')">Word 4</button> 
+        <button id="word5" class="button" onclick="selectWord('word5')">Word 5</button> 
+    </div>
+
+    <button id="randomStoryBtn" class="button" onclick="generateRandomStory()">Generate Random Story</button> 
+    <button id="resetBtn" class="button" onclick="resetStory()">Reset</button> 
+    <button id="viewStoryBtn" class="button" onclick="viewStory()">View Story</button> 
+
+    <div id="story"></div> 
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
